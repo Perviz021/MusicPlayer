@@ -21,7 +21,7 @@
 
 ###
 
-<p align="left">- Musiqi oxutmaq, dayandırmaq və davam etdirmək.<br>- Oynatma müddəti boyunca irəliləməni göstərən proqres çubuğu.<br>- İstifadəçinin seçdiyi nöqtədən musiqiyə başlamaq.<br>- Yüklənmiş musiqi faylının müddəti göstərilir.</p>
+<p align="left">- Play, pause and resume music.<br>- A progress bar showing progress throughout the playback time.<br>- Start the music from the point selected by the user.<br>- The duration of the downloaded music file is displayed.</p>
 
 ###
 
