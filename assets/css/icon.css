@@ -1,0 +1,11 @@
+.icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-orange);
+  font-size: 1rem;
+}
+
+.icon-lg {
+  font-size: 1.3rem;
+}

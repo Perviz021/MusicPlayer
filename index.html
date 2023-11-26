@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Box</title>
+    <script
+      src="https://kit.fontawesome.com/5e6bd4f56d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body style="background-color: #191c25">
+    <main class="container border-rounded flex mt-20 flex-wrap overflow-hidden">
+      <div class="w-full h-195">
+        <img
+          src=""
+          alt="music photo"
+          id="music-photo"
+          class="w-full h-full object-cover"
+        />
+      </div>
+      <div class="bg-light-gray p-16 w-full">
+        <div class="flex align-center justify-between">
+          <div>
+            <h3 class="fw-bold fs-16 mb-8" id="name"></h3>
+            <p class="fs-12 letter-spacing-2" id="author"></p>
+          </div>
+          <div class="flex align-center">
+            <button class="btn cursor-pointer mr-8 p-2">
+              <i class="icon icon fas fa-volume-up" id="volume"></i>
+            </button>
+            <div
+              class="h-3 w-70 bg-mid-gray relative cursor-pointer"
+              id="volumeControl"
+            >
+              <div
+                class="h-3 w-full bg-orange absolute top-0 left-0"
+                id="volumeLevel"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-20">
+          <audio src="" id="audio"></audio>
+
+          <div
+            class="h-3 w-full relative bg-mid-gray cursor-pointer"
+            id="progressBarContent"
+          >
+            <div
+              class="h-3 w-0 absolute bg-dark-gray top-0 left-0"
+              id="progressBar"
+            ></div>
+          </div>
+
+          <div class="flex justify-between align-center pt-5">
+            <span class="fs-12 letter-spacing-2" id="startTime"></span>
+            <span class="fs-12 letter-spacing-2" id="endTime"></span>
+          </div>
+
+          <div class="flex justify-center align-center mt-5">
+            <button
+              class="btn cursor-pointer bg-orange border-rounded-full"
+              id="btnPrev"
+            >
+              <i class="icon fas fa-step-backward color-white"></i>
+            </button>
+            <button
+              class="btn btn-lg cursor-pointer bg-orange border-rounded-full mx-12"
+              id="btnPlay"
+            >
+              <i class="icon icon-lg fas fa-play color-white"></i>
+            </button>
+            <button
+              class="btn cursor-pointer bg-orange border-rounded-full"
+              id="btnNext"
+            >
+              <i class="icon fas fa-step-forward color-white"></i>
+            </button>
+          </div>
+          <div
+            class="mt-20 bg-dark-gray border-rounded pt-5"
+            id="musicList"
+          ></div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./assets/js/music.js"></script>
+    <script src="./assets/js/musicPlayer.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
